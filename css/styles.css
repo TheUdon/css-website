@@ -1,0 +1,159 @@
+body {
+    background-color: #F6F5F5;
+    margin: 0;
+
+    text-align: center;
+    font-family: 'Zen Old Mincho', serif;
+    font-size: 1.5em;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #D3E0EA;
+    border-width: 5px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+h1 {
+    font-family: 'Itim', cursive;
+    font-size: 5rem;
+    color: #1687A7;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+
+h2 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 2rem;
+    color: #1687A7;
+}
+
+h3 {
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    color: #276678;
+}
+
+.top-container {
+    background-color: #D3E0EA;
+    padding-top: 100px;
+    position: relative;
+}
+
+.middle-container {
+    background-color: #F6F5F5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.bottom-container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.intro {
+    margin: 0 40%;
+}
+
+.Python {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    top: 600px;
+    left: 400px;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+}
+
+.fl-studio-img {
+    width: 250px;
+    height: 250px;
+    float: right;
+    margin-left: 30px;
+}
+
+.python-img {
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin-right: 30px;
+}
+
+.footer-link {
+    color: #276678;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #F6F5F5;
+}
+
+.skill-row {
+    width: 50%;
+    text-align: left;
+    line-height: 1.5;
+    margin: 100px auto 150px auto;
+}
+
+.contact-message {
+    margin: auto 40% 50px 40%;
+}
+
+.subtitle {
+    font-weight: normal;
+}
+
+.copyright {
+    color: #F6F5F5;
+    font-size: 1.2rem;
+    padding-top: 10px;
+}
+
+.skills {
+    padding-bottom: 30px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-size: 2.25rem;
+   font-weight: 100;
+   padding: 20px 30px;
+   background-color: #3D94F6;
+   -webkit-box-shadow: 4px 7px 10px 0 #276678;
+   -moz-box-shadow: 4px 7px 10px 0 #276678;
+   box-shadow: 4px 7px 10px 0 #276678;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #1E62D0;
+   border: solid #276678 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
